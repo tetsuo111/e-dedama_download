@@ -1,0 +1,358 @@
+@charset "UTF-8";
+/* ==============================================================
+	CUSTOM CSS
+	2018/01/30(火)
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+==============================================================	 */
+/*
+	下記ファイルの必要性がないため、コメントアウト
+	@import url(custom-color.css);
+*/
+/*** custom-colorに移行予定 ***/
+header.sticky-header {
+	border-bottom: 1px solid #c9282a;
+}
+
+.box-header-wrap .navbar-default .navbar-nav > .active > a, .box-header-wrap .navbar-default .navbar-nav > li > a:hover {
+	color: #c9282a !important;
+}
+
+.navbar-default .navbar-brand {
+	color: #c9282a;
+}
+
+/*** 背景 ***/
+.banner-area {
+	background: #ac1b1c;
+}
+
+/*** 横棒 ***/
+.section-title h2 span:before, .section-title h2 span:after {
+	background: #ac1b1c;
+}
+
+/*** タイトル下部赤・ ***/
+.screenshots-area .owl-dot.active, .people .owl-dot.active {
+	background: #ac1b1c;
+}
+
+/***	タイトル下部赤〇 ***/
+.screenshots-area .owl-dot {
+	border: 1px solid #ac1b1c;
+}
+
+/*** 直角三角形 ***/
+.people .owl-dot {
+	border: 1px solid #ac1b1c;
+}
+.people .single .texts {
+	background: rgba(201, 40, 42, 0.8);
+}
+.people .single .texts:before {
+	/*** 薄い青背景 ***/
+	border-bottom: 100px solid rgba(201, 40, 42, 0.8);
+}
+
+/*** プレミアム ***/
+.packages .premium .single .name {
+	background: #ac1b1c;
+}
+.packages .premium .single ul li {
+	color: #ac1b1c;
+}
+.packages .premium .single:after {
+	border-top: 550px solid #ac1b1c;
+}
+.packages .single:before {
+	border-left: 357px solid #ac1b1c;
+}
+
+.team-members .single .img-holder:before {
+	border-left: 357px solid #ac1b1c;
+}
+
+.packages .single:after, .team-members .single .img-holder:after {
+	border-top: 503px solid #ac1b1c;
+}
+
+.branding-color {
+	color: #ac1b1c;
+}
+
+.branding-bg-color {
+	background: #ac1b1c;
+}
+
+/***アプリダウンロード背景 ***/
+.overlay-video-area .overlay, .get-app-area .overlay {
+	background: rgba(201, 40, 42, 0.8);
+}
+
+.section-title-2 h2{
+	padding: 20px;
+	position: relative;
+	margin-bottom: 40px;
+	text-align: left;
+	border-bottom: 4px solid #ac1b1c;
+	border-left: 4px solid #ac1b1c;
+	font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+	font-weight: bold;
+}
+
+.section-title-2 p{
+	font-size: 20px;
+	padding-left: 40px;
+}
+/*==================================
+=			header			 =
+==================================*/
+.box-header-wrap .navbar-brand {
+	padding: 40px 10px;
+}
+.box-header-wrap .navbar-default .navbar-nav > li > a {
+	padding: 50px 20px 30px;
+}
+.navbar{
+	margin-top: 20px;
+}
+.navbar-list{
+	display: flex;
+}
+.navbar-list li{
+	margin: auto 15px;
+}
+.navbar-header .navbar-brand-textlogo {
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 25px;
+	padding-top: 40px;
+}
+.navbar-header .navbar-brand-textlogo span {
+	font-size: 16px;
+}
+
+.navbar-brand-right {
+	display: block;
+	padding: 10px 20px 5px 20px;
+}
+
+.banner-area{
+	padding: 20px 0 20px;
+}
+
+.navbar-foot{
+	background: #ffffff;
+}
+.banner-area{
+	margin-bottom: 65px;
+}
+/*==================================
+=			download				=
+==================================*/
+.download{
+	padding: 80px 0 80px 0;
+}
+
+.download .download-border{
+	border: 3px dashed #ac1b1c;
+}
+
+.download .download-left{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+.download-left p{
+	font-size: 40px;
+	font-weight: bold;
+	color: #c9282a;
+	padding-left: 20px;
+	font-family: "游ゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
+	line-height: 50px;
+}
+
+.download-left span{
+	display: block;
+}
+
+.download-right{
+	border-left: 3px dashed #ac1b1c;
+	padding: 45px;
+	text-align: center;
+}
+
+.download-right .download-list li{
+	display: inline-block;
+	padding: 10px;
+	width: 48%;
+}
+
+/*==================================
+=			service				 =
+==================================*/
+.service {
+	position: relative;
+	max-height: 100%;
+	width: 100%;
+	padding-top: 0;
+}
+.service .section-title-2 {
+	margin-bottom: 100px;
+}
+
+.service .service-exchange {
+	margin-bottom: 100px;
+	max-height: 100%;
+	width: 100%;
+}
+.service .service-exchange .section-sub-title{
+	margin-bottom: 50px;
+	font-size: 28px;
+	font-weight: 600;
+	color: #c9282a;
+	position: relative;
+	padding-left: 70px;
+}
+.service .service-exchange .section-sub-title span {
+	position: absolute;
+	top: 5px;
+}
+
+.service .service-before {
+	text-align: left;
+	position: relative;
+	margin: 0 0 100px 40px;
+}
+.service .service-before .section-sub-title {
+	margin-bottom: 50px;
+}
+.service .service-before .image {
+	padding-top: 20px;
+}
+
+.service .service-before .section-sub-title, .service .service-before .is-list {
+	color: #151967;
+	font-size: 28px;
+	font-weight: 600;
+}
+.service .service-after {
+	position: relative;
+	text-align: left;
+	margin: 0 0 0 40px;
+}
+.service .service-after .section-sub-title, .service .service-after .is-list {
+	font-size: 35px;
+	font-weight: 600;
+	color: #ac1b1c;
+}
+.service .service-after .section-sub-title {
+	margin-bottom: 50px;
+}
+.service .service-after .section-sub-title span {
+	position: absolute;
+	top: 4px;
+}
+.service .service-after .image {
+	padding-top: 20px;
+}
+.service .service-after .is-list {
+	line-height: 60px;
+}
+
+/*==================================
+=			Overviews				 =
+==================================*/
+
+.overviews .single {
+	/*** 高さ固定 ***/
+	height: 450px;
+	text-align: center;
+}
+
+.overviews .single h4{
+	height: 50px;
+}
+
+.overviews .single p{
+	text-align: left;
+}
+
+.overviews .single figure {
+	height: 140px;
+}
+
+.overviews .single figure.intro-image{
+	padding-top: 20px;
+}
+
+.overviews .single figure.management-image{
+	padding-top: 5px;
+}
+/*==================================
+=			FEATURES				 =
+==================================*/
+
+.features-area .single h3,
+.features-area .single p{
+	text-align: left;
+}
+
+.features-area .single figure{
+	margin-top: 20px;
+	padding: 0;
+}
+
+.features-area .single figure::after{
+	content: '';
+	position: absolute;
+	right: -50px;
+	height: 1px;
+	width: 25px;
+	top: 42px;
+	background: #fff;
+}
+
+.features-area .right .single figure::after{
+	right: unset;
+	left: -50px;
+}
+
+
+.screenshots-area{
+	background: #ffffff;
+	padding-top: 0;
+}
+.screenshots-area h2{
+	margin-bottom: 150px;
+}
+
+/*==================================
+=			Footer				 =
+==================================*/
+.footer-area{
+	padding: 10px 30px 0px 30px;
+}
+
+.footer-area .footer-area-companyname {
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 25px;
+	font-weight: 600;
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.footer-area .footer-area-companyname span {
+	font-size: 16px;
+}
+
+.copyright{
+	border-top: 0;
+}
+
+.contact-info .single h5 , .contact-info .single p{
+	font-size: 18px;
+}
+
